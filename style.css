@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.big {
+  width: 100%;
+  margin-top: 100px;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.head {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+}
+.menu {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  border-left: none;
+  border-top: none;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+.tepa {
+  display: flex;
+  width: 100%;
+}
+.mains {
+  width: 50%;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid red;
+  border-left: none;
+  border-top: none;
+}
+.right {
+  width: 50%;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid red;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+}
